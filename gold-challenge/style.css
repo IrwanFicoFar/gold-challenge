@@ -11,7 +11,12 @@
 .navbar-brand {
     justify-content: center;
     margin-left: 70px;
-    font-size:xx-large;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+letter-spacing: 0.1em;
 }
 
 .nav-item {
@@ -19,11 +24,17 @@
     padding-left:15px;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-size: small;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
 }
 .navbar {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .row-style {

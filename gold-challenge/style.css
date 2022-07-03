@@ -29,3 +29,51 @@
 .row-style {
     background-color:  rgba(0, 0, 0, 0.75);
 }
+
+.row-style2 {
+    margin-top: 200px;
+}
+
+.row-style2 h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 83px;
+    letter-spacing: 3px;
+    
+}
+
+.row-style2 h6 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.row-style2 button {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.row-style2 .history {
+    margin-top: 170px;
+
+}
+
+.history a {
+    color: white;
+}
+
+@media (max-width: 720px) {
+    .bgmain {
+        height: 1300px;
+        
+    }
+}
+
+

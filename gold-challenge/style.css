@@ -209,7 +209,80 @@ letter-spacing: 0.1em;
 }
 
 
+/* requirements */
+.bgmain4 {
+    background-image: url('assets/requirements.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.row-style5  {
+    padding-top: 30px;
+    color: white;  
+
+}
+
+.row-style5 h3  {
+    padding-top: 100px;
+    color: white;  
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+.row-style5 h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: left;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.row-style5 .row {
+    padding-left: 105px;
+}
+
+.row-style5 h2 {
+    color: orange;
+    font-size: 24px;
+}
+
+.row-style5 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.table-bordered {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 720px) {
+    .bgmain {
+        height: 1300px;
+        
+    }
+
     .row-style2 h1 {
         font-style: normal;
         font-weight: 600;
@@ -223,9 +296,20 @@ letter-spacing: 0.1em;
         padding-left: 0px;  
     }
 
-    .bgmain {
-        height: 1300px;
-        
+    .row-style5 .row {
+        padding-left: 0px;
+    }
+
+    .row-style5 h1 {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 64px;
+        text-align: left;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
 }
 
